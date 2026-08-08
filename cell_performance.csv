@@ -1,0 +1,22 @@
+SQL> 
+SQL> SELECT
+  2      cell_id,
+  3      cell_name,
+  4      region_name,
+  5      avg_load,
+  6      avg_throughput,
+  7      avg_latency,
+  8      avg_packet_loss,
+  9      network_status
+ 10  FROM cell_performance_view;
+       303,CELL_S_03                                         ,South                                             ,     61.66,          89.9,       62.7,           4.17,HIGH LOAD                        
+       201,CELL_C_01                                         ,Central                                           ,     59.37,         92.99,      57.27,           4.47,NORMAL                           
+       102,CELL_N_02                                         ,North                                             ,     50.72,        104.51,      48.83,           2.94,NORMAL                           
+       301,CELL_S_01                                         ,South                                             ,      57.9,         96.94,      67.08,           3.49,NORMAL                           
+       101,CELL_N_01                                         ,North                                             ,     60.34,         89.75,      62.98,           3.51,HIGH LOAD                        
+       203,CELL_C_03                                         ,Central                                           ,     54.44,         93.84,      58.21,           3.32,NORMAL                           
+       202,CELL_C_02                                         ,Central                                           ,     59.43,         87.09,      66.77,           3.52,NORMAL                           
+       302,CELL_S_02                                         ,South                                             ,      54.6,         93.02,      55.39,           3.19,NORMAL                           
+       103,CELL_N_03                                         ,North                                             ,     61.59,         90.75,      67.34,           3.53,HIGH LOAD                        
+SQL> 
+SQL> SPOOL OFF;
