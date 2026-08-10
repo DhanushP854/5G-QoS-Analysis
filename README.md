@@ -198,6 +198,8 @@ The project can be extended with:
 
 **Conclusion:** *This project demonstrates how communication engineering concepts and data analysis can be combined to monitor and evaluate cellular network performance.*
 
+**🏁 Project Status:** *Project Successfully Completed and Tested ✅. Looking forward to upgrade the project.*
+
 -- THANKYOU --
 The system provides a complete workflow from database extraction to QoS analysis, scoring, visualization, and network recommendations.
 
